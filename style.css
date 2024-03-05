@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #d1d1d1;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;
+}
+
+.header_card{
+    position: relative;
+}
+
+
+.promoted{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.562);
+    padding: 2px 8px;
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 5px;
+}
+
+.discount{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    font-size: 18px;
+    background-color: #266FEF;
+    color: #fff;
+    padding: 2px 30px;
+}
+
+.time{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.884);
+    color: #000000;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.food_card{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.header_card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.location{
+    color: #8c8c8c;
+    margin-bottom: 20px;
+}
+.restourent_name{
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+.footer-card{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #8c8c8c;
+    padding-top: 20px;
+    gap: 20px;
+    align-items: center;
+}
+.footer-card img {
+    width: 15%;
+    height: 15%;
+}
+
+.footer-card p {
+    color: #8c8c8c;
+}
+
+/* task2 */
+
+.sea-view{
+    width: 60vw;
+    height: 60vh;
+    position: relative;
+}
+
+.sea-view img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.detail-container{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 25%;
+}
+
+.sea-view p{
+    margin-top: 20px;
+}
+.sea-view button{
+    margin-top: 20px;
+    padding: 20px 40px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
